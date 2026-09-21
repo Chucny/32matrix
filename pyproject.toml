@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "32matrix"
+version = "0.1.0"
+description = "Wrap or repackage 32-bit-only APKs so they run on 64-bit-only Android devices"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "GPL-3.0-only" }
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+keywords = ["android", "apk", "32-bit", "arm64", "emulation", "zettabridge"]
+
+[project.scripts]
+32matrix = "32matrix.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["32matrix*"]

@@ -1,8 +1,38 @@
 # 32matrix
 
+Build installable Android packages for 32-bit-only applications on 64-bit-only devices.
+
+---
+
+> "Information wants to be free. History shows that trying to lock it down doesn't work." 
+> — **Aaron Swartz**
+
+---
+
+## 🚫 The Backstory: Out-Coding the Gatekeepers
+
+When you build something that breaks boundaries, the people who profit off gatekeeping will panic. 
+
+While developing **32matrix**, a closed-source community project called "Kanto" (https://kanto.ac) was tryig to prevent me. When they realized they were out-engineered, their leadership completely lost their composure and dropped this unhinged threat:
+
+```text
+"Anyway I'm not arguing with a petulant child anymore
+You've made ur mind up, you've ruined your reputation
+And I never want to speak with you ever again.
+Either get some mental health help, or off yourself before you're 18
+Either option I don't care"
+```
+
+**They wanted to kill the project. Instead, I made it open source.** 
+
+32matrix is the answer to closed-source gatekeeping. It is the first-ever open-source tool that handles 32-bit to 64-bit translation packaging seamlessly, making applications accessible to everyone on flagship devices without VPhoneOS or closed-source translation layers. 
+
+Let the binaries be free.
+
 Build installable Android packages for 32-bit-only applications on 64-bit-only
 devices.
-
+---
+### Anyways, let's get into it.
 32matrix is a cross-platform command-line tool that takes an APK built only for
 the 32-bit ARM ABI (`armeabi` / `armeabi-v7a`) and produces a signed, correctly
 aligned APK that installs and launches on hardware where 32-bit execution has

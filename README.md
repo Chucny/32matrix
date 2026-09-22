@@ -1,7 +1,7 @@
 # 32matrix
-
-Build installable Android packages for 32-bit-only applications on 64-bit-only devices.
-Approxumately 60%-85% of apps converted with 32matrix work.
+---
+### Build installable Android packages for 32-bit-only applications on 64-bit-only devices.
+### Approximately 60%-85% of apps converted with 32matrix work.
 ---
 
 > "Information wants to be free. History shows that trying to lock it down doesn't work." 

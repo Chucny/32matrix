@@ -11,19 +11,7 @@
 
 ## 🚫 The Backstory: Out-Coding the Gatekeepers
 
-When you build something that breaks boundaries, the people who profit off gatekeeping will panic. 
-
-While developing **32matrix**, a closed-source community project called "Kanto" (https://kanto.ac) was tryig to prevent me. When they realized they were out-engineered, their leadership completely lost their composure and dropped this unhinged threat:
-
-```text
-"Anyway I'm not arguing with a petulant child anymore
-You've made ur mind up, you've ruined your reputation
-And I never want to speak with you ever again.
-Either get some mental health help, or off yourself before you're 18
-Either option I don't care"
-```
-
-**They wanted to kill the project. Instead, I made it open source.** 
+I ripped a 32-bit trannslator binary from a closed source, toxic project lol.
 
 32matrix is the answer to closed-source gatekeeping. It is the first-ever open-source tool that handles 32-bit to 64-bit translation packaging seamlessly, making applications accessible to everyone on flagship devices without VPhoneOS or closed-source translation layers. 
 
